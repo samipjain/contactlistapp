@@ -1,0 +1,25 @@
+// Setup node & express
+1. Create server.js
+2. Install express - npm install express
+3. Call express from server.js
+4. Create public/index.html
+
+Now I can choose either mySQL or mongoDB
+
+node server - to start node server
+
+cd mongo/bin
+./mongod - to start mongo server
+
+Another CMD/git bash - 
+./mongo - to use database
+
+show dbs
+use contactlist
+db.contactlist.insert({name:'Tom',email:'tom@tom.com',number:'9748481319'},{name:'John',email:'john@john.com',number:'5555'},{name:'Sam',email:'sam@sam.com',number:'111111'})
+db.contactlist.find().pretty()
+
+Install mongojs - to connect mongodb with node.js
+Install body-parser - to parse the json object
+
+
